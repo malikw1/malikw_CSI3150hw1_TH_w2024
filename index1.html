@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 
-<html>
+
+ <html>
+    
     <head>
         <meta charset="UTF-8">
         <meta name="description" content="Malik Williams Portfolio">
@@ -10,66 +12,150 @@
         
         <title> Malik Williams' Portfolio </title>
         <!-- <link rel=“icon” type=“image/x-icon” href=“../Assets/favicon.ico”> -->
-        <link rel="shortcut icon" href="../Assets/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="./Assets/favicon.ico" type="image/x-icon">
+    </head>
 
+    <body>
+        <header>
+            <h1> Malik D. Williams' Portfolio </h1>
 
-    <head>
-
-        <body>
-            <header>
-                <h1> Malik D. Williams' Portfolio </h1>
-                    <nav>
-                        <ul>
-                            <a href="../HTML/my_fun_facts.html">Fun Facts About Malik</a>
-                            <a href="HTML/my_resume.html">Malik's Resume Page</a>
-                        </ul>
-                    </nav>
-                    
-                </header>
-
-                <main>
-                    <img src="../Assets/malik_1.jpg" alt="Malik at Founders Day Celebration"> <br> <br>
-                    "Greatness is slow cooked."
-
-                    <br>
-                    <br>
-
-                    <p4>
-                        Greetings! Welcome to my website! My name is Malik D. Williams and I am a Senior at Oakland University
-                        studying Information Technology. I am from Detroit Michigan. I am currently seeking an internship in the 
-                        IT field and I currently do not have any prior experience. <br>
-
-                        To know more about me you can visit my pages below.
-
-                        <ul>
-                            <li><a href="my_fun_facts.html">Fun Facts About Malik</a></li>
-                            <li><a href="my_resume.html">Malik's Resume Page</a></li>
-                        </ul>
-
-                        <br>
-                        <br>
-
-                    </p4>
-
-                    <p4>
-                        Current progress to degree:
-
-                        <br>
-
-                        <label for ="file"> IT Degree Completion</label> <br>
-                        <progress id ="file" value="96" max="100"> 96%</progress>
-                    </p4>
-
-
-                   </main>
-
-                <footer>
-                    <h2> Contact Information: </h2>
-                    <p> Listed below is all of my contact information. </p>
-                    <address>
-                        <a href="williams5@oakland.edu">williams5@oakland.edu</a><hr>
-                        <a href="tel:+13139090321">(313) 909-0321</a> <hr>
-                      </address>
+            <ul class="navbar">
+                <li><a href="./HTML/my_fun_facts.html">Fun Facts About Malik</a></li>
+                <li><a href="./HTML/my_resume.html">Malik's Resume Page</a></li>
+            </ul>
                 
+        </header>
+        <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+
+        <main>
+
+            
+            
+            <p2>
+                <img src="./Assets/malik_1.jpg" alt="Malik at Founders Day Celebration"> <br> <br>
+
+                "Greatness is slow cooked." <br> <br>
+
+                Greetings! Welcome to my website! My name is Malik D. Williams and I am a Senior at Oakland University
+                studying Information Technology. I am from Detroit Michigan. I am currently seeking an internship in the 
+                IT field and I currently do not have any prior experience. <br> <br>
+
+                To know more about me you can visit my pages below.
+
+                <!--<ul>
+                    <li><a href="./HTML/my_fun_facts.html">Fun Facts About Malik</a></li>
+                    <li><a href="./HTML/my_resume.html">Malik's Resume Page</a></li>
+                </ul> -->
+
+                <br>
+                <br>
+            </p2>
+
+        </main>
+            
+
+            <br>
+            <br>
+
+            <p4>
+                Current progress to degree:
+
+                <br>
+
+                <label for ="file"> IT Degree Completion</label> <br>
+                <progress id ="file" value="96" max="100"> 96%</progress>
+            </p4>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+
+
+           <footer>
+            <h2> Contact Information: </h2>
+            <p4> Listed below is all of my contact information. </p4>
+                <address>
+                    <a href="williams5@oakland.edu">williams5@oakland.edu</a><hr>
+                    <a href="tel:+13139090321">(313) 909-0321</a> <hr>
+                </address>
+        
                     &copy; 2024, Malik Williams <br>
-                </footer>
+            </footer>
+
+
+
+    </body>
+
+    
+
+ </html>
+
+ <style>
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0a0905;
+}
+
+li {
+  float: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #f00b0b;
+}
+head {
+    float: center;
+    text-align: center;
+}
+
+img {
+    float: left;
+  border: 1px dotted black;
+  margin: 0px 0px 15px 20px;
+}
+
+footer {
+    float: center;
+    text-align: center;
+}
+
+address{
+    float: center;
+    text-align: center;
+}
+
+header {
+    float: right;
+    width: 100px;
+  height: 100px;
+  background: darkred;
+  transition: width 2s, height 4s;
+}
+
+header:hover {
+    float: right;
+    width: 300px;
+  height: 300px;
+}
+
+ </style>
