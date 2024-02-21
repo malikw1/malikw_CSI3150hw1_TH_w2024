@@ -13,34 +13,68 @@
         <title> Malik Williams' Portfolio </title>
         <!-- <link rel=“icon” type=“image/x-icon” href=“../Assets/favicon.ico”> -->
         <link rel="shortcut icon" href="./Assets/favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="style.css">
 
     </head>
 
     <body>
-        <header>
-            <h1> Malik D. Williams' Portfolio </h1>
-
-            <ul class="navbar">
-                <li><a href="./HTML/my_fun_facts.html">Fun Facts About Malik</a></li>
-                <li><a href="./HTML/my_resume.html">Malik's Resume Page</a></li>
-                <li><a href="../index.html">Malik's Home Page</a></li>
-            </ul>
-                
-        </header>
-        <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
 
 
-        <div class="bg_img img1"></div>
-        <div class="bg_img img2"></div>
-        <div class="bg_img img3"></div>
-        <div class="bg_img img4"></div>
-        <div class="bg_img img5"></div>
-        <div class="bg_img img6"></div>
-        <div class="bg_img img7"></div>
+        <div class="bg-image img1">
+            <h1>
+                Let's Explore Santorini Greece.
+            </h1>
 
-        <div class="text-wrapper">
-            <h1> Scroll the Page </h1>
+        </div>
+        
+        
+        <div class="bg-image img2">
+            <h2>
+                Is a trip to Santorini on your list? Visit the link below. <br> <br>
+                <a href="https://www.tripadvisor.com/SmartDeals-g189433-Santorini_Cyclades_South_Aegean-Hotel-Deals.html" target="_blank"> Click Me!</a>
+            </h2>
+        </div>
+        
+        
+        <div class="bg-image img3">
+            <h2>
+                Santorini is one of the Cyclades islands in the Aegean Sea. It was devastated by a volcanic eruption in the 16th century BC, forever shaping its rugged landscape. 
+                The whitewashed, cubiform houses of its 2 principal towns, Fira and Oia, cling to cliffs above an underwater caldera (crater). 
+                They overlook the sea, small islands to the west and beaches made up of black, red and white lava pebbles.
+            </h2>
+        </div>
+        
+        
+        <div class="bg-image img4">
+            <h2>
+
+            </h2>
+        </div>
+
+        <br> <br> <br> <br> <br>
+        
+        
+        <div class="bg-image img5">
+            <span style="border: 10px solid #000; border-radius: 25%; padding: 25px;">2,000,000 tourists in 2014</span>
+            <span style="border: 10px solid #000; border-radius: 25%; padding: 25px;">76 square kilometers</span>
+            <span style="border: 10px solid #000; border-radius: 25%; padding: 25px;">600 chapels and churches</span>
+        </div>
+        
+        
+        <div class="bg-image img6"></div>
+        
+        
+        <div class="bg-image img7">
+            <h2>
+                Contact Me:
+            </h2>
+            <p>
+                Phone: (313) 909 - 0321 <br>
+                email: williams5@oakland.edu <br>
+
+                <a href="www.twitter.com"><img src="twitter.png" alt="Twitter" style="width:50px;height:50px;"></a>
+                <a href="www.instagram.com"><img src="instagram.jpg" alt="Instagram" style="width:50px;height:50px;"></a>
+
+            </p>
         </div>
         
         
@@ -69,88 +103,87 @@
 
 
 
-           <footer>
-            <h2> Contact Information: </h2>
-            <p4> Listed below is all of my contact information. </p4>
-                <address>
-                    <a href="williams5@oakland.edu">williams5@oakland.edu</a><hr>
-                    <a href="tel:+13139090321">(313) 909-0321</a> <hr>
-                </address>
-        
-                    &copy; 2024, Malik Williams <br>
-            </footer>
-
-
-
     </body>
 
     
 
  </html>
 
- 
-<!--
- 
  <style>
-    ul {
-  list-style-type: none;
+
+body, html {
+  height: 100%;
   margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #0a0905;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-li {
-  float: center;
+* {
+  box-sizing: border-box;
 }
 
-li a {
-  display: block;
+.bg-image {
+  /* Full height */
+  height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Images used */
+.img1 { background-image: url("../Assets/santorini_1.jpg"); }
+.img2 { background-image: url("../Assets/santorini_2.jpg"); }
+.img3 { background-image: url("../Assets/santorini_3.jpg"); }
+.img4 { background-image: url("../Assets/santorini_4.jpg"); }
+.img5 { background-image: url("../Assets/santorini_5.jpg"); }
+.img6 { background-image: url("../Assets/santorini_6.jpg"); }
+.img7 { background-image: url("../Assets/santorini_7.jpg"); }
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
   color: white;
+  font-weight: bold;
+  font-size: 80px;
+  border: 10px solid #f1f1f1;
+  position: fixed; /* Stay fixed */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 300px;
+  padding: 20px;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #f00b0b;
+.bg_img {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-head {
-    float: center;
+
+h1 {
+    color: rgba(31, 31, 31, 0.9);
+    font-size: 80px;
     text-align: center;
+    vertical-align: middle;
+
 }
 
-img {
-    float: left;
-  border: 1px dotted black;
-  margin: 0px 0px 15px 20px;
+h2 {
+    text-align: left;
+    text-size: 100%;
 }
 
-footer {
-    float: center;
-    text-align: center;
+.a {
+    height: 50px;
+    width: 50px;
 }
-
-address{
-    float: center;
-    text-align: center;
-}
-
-header {
-    float: right;
-    width: 100px;
-  height: 100px;
-  background: darkred;
-  transition: width 2s, height 4s;
-}
-
-header:hover {
-    float: right;
-    width: 300px;
-  height: 300px;
-}
-
+ 
  </style>
-
--->
