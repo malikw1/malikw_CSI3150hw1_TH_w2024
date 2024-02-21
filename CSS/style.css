@@ -4,31 +4,31 @@ body {
     height: 100%;
 }
 
-.img1 {
+.img_1 {
     background-image: url('../Assets/santorini_1.jpg');
 }
 
-.img2 {
+.img_2 {
     background-image: url('../Assets/santorini_2.jpg');
 }
 
-.img3 {
+.img_3 {
     background-image: url('../Assets/santorini_3.jpg');
 }
 
-.img4 {
+.img_4 {
     background-image: url('../Assets/santorini_4.jpg');
 }
 
-.img5 {
+.img_5 {
     background-image: url('../Assets/santorini_5.jpg');
 }
 
-.img6 {
+.img_6 {
     background-image: url('../Assets/santorini_6.jpg');
 }
 
-.img7 {
+.img_7 {
     background-image: url('../Assets/santorini_7.jpg');
 }
 
@@ -44,5 +44,17 @@ body {
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate();
+    transform: translate(-50%, -505);
+    z-index: 2;
+    width: 700px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 12px 30px 0 rgba(0,0,0,0.3) 0 15px 50px 0 rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+    color: rgba(31, 31, 31, 0.9);
+    font-family: cursive;
+    font-size: 80px;
+    letter-spacing: 10px;
 }
